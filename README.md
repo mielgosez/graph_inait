@@ -8,7 +8,7 @@ Graph class with the following characteristics:
 # How to install it
 Package is available in PyPi. To install it just  use pip
 ```
-pip install inait_graph
+pip install graph_inait
 ```
 
 # Quick Tutorial
