@@ -62,10 +62,11 @@ class Graph:
             graph = Graph(list_nodes=node_list, list_edges=edge_list)
         return graph
 
-    def plot_histogram_degree_out(self, image_name: str = 'hist.png'):
-        plt.hist(self.vertex_out_degree)
-        plt.xlabel('n_out_vertices')
+    def plot_histogram_degree_out(self, image_name: str = 'hist.png', n_bins: int = 20):
+        plt.hist(self.vertex_out_degree, bins=n_bins)
+        plt.xlabel('number vertices out')
         plt.ylabel('counts')
+        plt.grid()
         plt.title('Vertex Out Degree')
         plt.savefig(image_name)
 

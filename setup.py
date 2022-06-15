@@ -3,7 +3,7 @@ import setuptools
 
 setuptools.setup(
     name="graph_inait",
-    version="1.0.0",
+    version="1.0.1",
     author="Jose Mielgo",
     author_email="mielgosez@gmail.com",
     description="Python graph class.",

@@ -1,2 +1,6 @@
+venv
+dist
 .idea
 .pytest_cache
+*.png
+*.h5
